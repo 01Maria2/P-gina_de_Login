@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesse sua conta</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-section">
+            <h1>Acesse sua conta</h1>
+            <form id="login" name="login">
+                <label for="cpf">CPF</label>
+                <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" required><br>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required><br>
+                <p class="info-text">Possui 8 caracteres ou mais</p>
+
+                <input type="submit" value="Continuar" disabled id="submitButton"><br>
+            </form>
+
+            <div class="links">
+                <a href="#">Esqueci a senha</a>
+                <a href="#">Não sou cliente</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="https://i.postimg.cc/sxJJZqkk/img3.webp" alt="Login Image" />
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
